@@ -1,3 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add smooth font + base style */
+body {
+  @apply bg-primary text-highlight font-sans;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
